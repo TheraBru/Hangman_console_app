@@ -1,0 +1,1 @@
+*Console application for a game of hangman*
