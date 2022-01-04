@@ -102,8 +102,15 @@ namespace Project
 
                                         // Run if inputted info isn't null
                                         if(gameAnswer != null){
-                                            Console.WriteLine("\n(())=========[JAG ÄR EN BANNER]=========(()) \n");
+                                            Console.WriteLine("\n==================\n");
 
+                                            // Check if input contains anything but letters or more than one letter
+                                            if(!Regex.IsMatch(gameAnswer, @"^[a-zA-Z]+$") || gameAnswer.Length>1){
+                                                Console.WriteLine("Your input was invalid. Use only letters and one at a time.");
+                                                Console.WriteLine("Press any key to try again\n");
+                                                Console.ReadKey(true);
+                                                break;
+                                            }
                                             try{
                                                 // convert inputted information to lowercase
                                                 gameAnswer.ToLower();
