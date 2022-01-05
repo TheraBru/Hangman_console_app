@@ -1,4 +1,6 @@
 // Code written by Therese Bruzell
+using System.Collections.Generic;
+using System;
 using System.IO;
 
 namespace Project{
@@ -44,7 +46,7 @@ namespace Project{
         }
 
         public void RepeatedGuess(string guess){
-            Console.WriteLine("\nYou have already made a quess for letter " + guess + ". Please make another guess.");
+            Console.WriteLine("\nYou have already made a guess for letter " + guess + ". Please make another guess.");
         }
 
         public void Occurence(string letter, int occurence){
@@ -56,7 +58,7 @@ namespace Project{
         }
 
         public void GameOver(){
-            Console.Write(" \n *GAME OVER* \n The word was " + word);
+            Console.Write(" \n*GAME OVER* \nThe word was " + word);
             Console.Write("\nYou didn't figure out the word and the man hung. \n");
         }
 

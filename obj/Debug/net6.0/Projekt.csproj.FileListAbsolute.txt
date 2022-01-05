@@ -13,3 +13,5 @@ G:\Programmering i C#\Projekt\obj\Debug\net6.0\Projekt.dll
 G:\Programmering i C#\Projekt\obj\Debug\net6.0\ref\Projekt.dll
 G:\Programmering i C#\Projekt\obj\Debug\net6.0\Projekt.pdb
 G:\Programmering i C#\Projekt\obj\Debug\net6.0\Projekt.genruntimeconfig.cache
+G:\Programmering i C#\Projekt\bin\Debug\net6.0\System.Text.Json.dll
+G:\Programmering i C#\Projekt\obj\Debug\net6.0\Projekt.csproj.CopyComplete

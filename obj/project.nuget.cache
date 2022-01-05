@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "oU41TqBRQxIZjzD2c9kdbKaWY4gDvT0u52nxLyLwoaQT0lslzLlGYycv9yXbp+r8TGmUeDPUBw089Kv/dPzFfw==",
+  "dgSpecHash": "rMj+R5CYVOH7YnoEv8oWkLFGOjRFRhaI+rYq+44DIs7qClPzInaEB618VGw+TBJwQmFp+d3JHixyM3+d2WvPWQ==",
   "success": true,
   "projectFilePath": "G:\\Programmering i C#\\Projekt\\Projekt.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\Therese\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\Therese\\.nuget\\packages\\system.text.encodings.web\\6.0.0\\system.text.encodings.web.6.0.0.nupkg.sha512",
+    "C:\\Users\\Therese\\.nuget\\packages\\system.text.json\\6.0.1\\system.text.json.6.0.1.nupkg.sha512"
+  ],
   "logs": []
 }

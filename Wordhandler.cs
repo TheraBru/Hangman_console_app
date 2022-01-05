@@ -1,6 +1,7 @@
 
 // Code written by Therese Bruzell
 using System.IO;
+using System.Text.Json;
 
 namespace Project{
 
@@ -13,7 +14,14 @@ namespace Project{
 
         // Construct that adds information to list of words
         public Wordhandler(){
-            this.listOfWords = new List<string>() { "apple", "argentina", "anthrax" };
+            this.listOfWords = new List<string>();
+            using(StreamReader StreamReader = new StreamReader("words.txt")){
+                if(StreamReader.ReadLine()!= null){
+                    foreach (string line in File.ReadLines("words.txt")){
+                        listOfWords.Add(line);
+                    }
+                }
+            }
             this.word ="";
         }
 
@@ -24,7 +32,9 @@ namespace Project{
             this.word = this.listOfWords[randomNumb];
             return word;
         }
+
+}
         
-    }
+    
 
 }

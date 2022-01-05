@@ -116,6 +116,7 @@ namespace Project
                                                     // Checks if you've guessed wrong ten times and ends game if you have.
                                                     if(wrongGuesses == 10){
                                                         messagehandler.GameOver();
+                                                        messagehandler.MoveOn();
                                                         gameIsRunning = false;
                                                     }else{
                                                         messagehandler.MoveOn();
